@@ -19,6 +19,7 @@
 		34E6BA8225F1DF3E00947D37 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6BA7B25F1DF3E00947D37 /* MoveZeroes.swift */; };
 		34E6BA8325F1DF3E00947D37 /* InvertString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6BA7D25F1DF3E00947D37 /* InvertString.swift */; };
 		34E6BA8425F1DF3E00947D37 /* InvertInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6BA7E25F1DF3E00947D37 /* InvertInteger.swift */; };
+		BF5703A125F5DC3E0099FE5E /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		34E6BA7B25F1DF3E00947D37 /* MoveZeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		34E6BA7D25F1DF3E00947D37 /* InvertString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertString.swift; sourceTree = "<group>"; };
 		34E6BA7E25F1DF3E00947D37 /* InvertInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertInteger.swift; sourceTree = "<group>"; };
+		BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				34E6BA7D25F1DF3E00947D37 /* InvertString.swift */,
 				34E6BA7E25F1DF3E00947D37 /* InvertInteger.swift */,
+				BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E6BA8225F1DF3E00947D37 /* MoveZeroes.swift in Sources */,
+				BF5703A125F5DC3E0099FE5E /* LongestCommonPrefix.swift in Sources */,
 				34E6BA8125F1DF3E00947D37 /* AddOne.swift in Sources */,
 				34E6BA6725F1DED200947D37 /* ViewController.swift in Sources */,
 				34E6BA8025F1DF3E00947D37 /* DeletesDuplicateValuesInArray.swift in Sources */,

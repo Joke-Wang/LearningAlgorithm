@@ -71,6 +71,10 @@ class ViewController: UIViewController {
         print(InvertInteger.reverse(1534236469))
         
         
+        let strs = ["flower","flow","flight"]
+        print(LongestCommonPrefix.longestCommonPrefix(strs))
+        
+        
     }
     
 }
