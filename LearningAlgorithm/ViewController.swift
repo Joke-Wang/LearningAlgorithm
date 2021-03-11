@@ -74,9 +74,20 @@ class ViewController: UIViewController {
 //        let strs = ["flower","flow","flight"]
 //        print(LongestCommonPrefix.longestCommonPrefix(strs))
         
-        print(ContainsStringFromIndex.strStr("hello", "ll"))
-        print(ContainsStringFromIndex.strStr("", ""))
-        print(ContainsStringFromIndex.strStr("abc", "c"))
+//        print(ContainsStringFromIndex.strStr("hello", "ll"))
+//        print(ContainsStringFromIndex.strStr("", ""))
+//        print(ContainsStringFromIndex.strStr("abc", "c"))
+        
+        print(StringToInt.myAtoi("42"))
+        print(StringToInt.myAtoi("     -42"))
+        print(StringToInt.myAtoi("4193 with words"))
+        print(StringToInt.myAtoi("words and 987"))
+        print(StringToInt.myAtoi("-91283472332"))
+        
+        print(StringToInt.myAtoi("   +0 123"))
+        print(StringToInt.myAtoi("00000-42a1234"))
+        
+        
     }
     
 }

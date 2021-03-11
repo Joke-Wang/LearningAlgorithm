@@ -42,14 +42,14 @@ import Foundation
 class ContainsStringFromIndex: NSObject {
     
     class func strStr(_ haystack: String, _ needle: String) -> Int {
-
+        
         let haystackStr = haystack as NSString
         let needleStr   = needle as NSString
-
+        
         if needleStr.length > haystackStr.length {
             return -1
         }
-
+        
         if haystack == needle || needleStr.length == 0 {
             return 0
         }
@@ -58,9 +58,9 @@ class ContainsStringFromIndex: NSObject {
             if haystackStr.substring(with: NSMakeRange(i, needleStr.length)) == needle {
                 return i
             }
-
+            
         }
-
+        
         return -1
 
     }
