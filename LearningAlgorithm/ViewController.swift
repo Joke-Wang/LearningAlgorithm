@@ -56,25 +56,27 @@ class ViewController: UIViewController {
          */
         
         
-        var digits = [9,9,9]
-        print(AddOne.plusOne(digits))
+//        var digits = [9,9,9]
+//        print(AddOne.plusOne(digits))
+//
+//        var moveZeroesArr = [0,0,0,0,0,0,0,1]
+//        MoveZeroes.moveZeroes(&moveZeroesArr)
+//        print(moveZeroesArr)
+//
+//        var strings: [Character] = ["a", "b", "c", "s"]
+//        InvertString.reverseString(&strings)
+//        print(strings)
+//
+//
+//        print(InvertInteger.reverse(1534236469))
+//
+//
+//        let strs = ["flower","flow","flight"]
+//        print(LongestCommonPrefix.longestCommonPrefix(strs))
         
-        var moveZeroesArr = [0,0,0,0,0,0,0,1]
-        MoveZeroes.moveZeroes(&moveZeroesArr)
-        print(moveZeroesArr)
-        
-        var strings: [Character] = ["a", "b", "c", "s"]
-        InvertString.reverseString(&strings)
-        print(strings)
-        
-        
-        print(InvertInteger.reverse(1534236469))
-        
-        
-        let strs = ["flower","flow","flight"]
-        print(LongestCommonPrefix.longestCommonPrefix(strs))
-        
-        
+        print(ContainsStringFromIndex.strStr("hello", "ll"))
+        print(ContainsStringFromIndex.strStr("", ""))
+        print(ContainsStringFromIndex.strStr("abc", "c"))
     }
     
 }
