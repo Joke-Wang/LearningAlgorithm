@@ -78,14 +78,21 @@ class ViewController: UIViewController {
 //        print(ContainsStringFromIndex.strStr("", ""))
 //        print(ContainsStringFromIndex.strStr("abc", "c"))
         
-        print(StringToInt.myAtoi("42"))
-        print(StringToInt.myAtoi("     -42"))
-        print(StringToInt.myAtoi("4193 with words"))
-        print(StringToInt.myAtoi("words and 987"))
-        print(StringToInt.myAtoi("-91283472332"))
+//        print(StringToInt.myAtoi("42"))
+//        print(StringToInt.myAtoi("     -42"))
+//        print(StringToInt.myAtoi("4193 with words"))
+//        print(StringToInt.myAtoi("words and 987"))
+//        print(StringToInt.myAtoi("-91283472332"))
+//        
+//        print(StringToInt.myAtoi("   +0 123"))
+//        print(StringToInt.myAtoi("00000-42a1234"))
         
-        print(StringToInt.myAtoi("   +0 123"))
-        print(StringToInt.myAtoi("00000-42a1234"))
+        print(CountAndSay.countAndSay(1))
+        print(CountAndSay.countAndSay(2))
+        print(CountAndSay.countAndSay(3))
+        print(CountAndSay.countAndSay(4))
+        
+        
         
         
     }

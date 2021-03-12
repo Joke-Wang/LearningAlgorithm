@@ -19,6 +19,7 @@
 		34E6BA8225F1DF3E00947D37 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6BA7B25F1DF3E00947D37 /* MoveZeroes.swift */; };
 		34E6BA8325F1DF3E00947D37 /* InvertString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6BA7D25F1DF3E00947D37 /* InvertString.swift */; };
 		34E6BA8425F1DF3E00947D37 /* InvertInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6BA7E25F1DF3E00947D37 /* InvertInteger.swift */; };
+		BF329A3525FB4FCD00A62603 /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF329A3425FB4FCD00A62603 /* CountAndSay.swift */; };
 		BF55331525F9F8C20077AA8C /* StringToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55331425F9F8C20077AA8C /* StringToInt.swift */; };
 		BF5703A125F5DC3E0099FE5E /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */; };
 		BFC4A74425F9B1C9002BAB8B /* ContainsStringFromIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4A74325F9B1C9002BAB8B /* ContainsStringFromIndex.swift */; };
@@ -39,6 +40,7 @@
 		34E6BA7B25F1DF3E00947D37 /* MoveZeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		34E6BA7D25F1DF3E00947D37 /* InvertString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertString.swift; sourceTree = "<group>"; };
 		34E6BA7E25F1DF3E00947D37 /* InvertInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertInteger.swift; sourceTree = "<group>"; };
+		BF329A3425FB4FCD00A62603 /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 		BF55331425F9F8C20077AA8C /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
 		BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		BFC4A74325F9B1C9002BAB8B /* ContainsStringFromIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsStringFromIndex.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				34E6BA7E25F1DF3E00947D37 /* InvertInteger.swift */,
 				BF55331425F9F8C20077AA8C /* StringToInt.swift */,
 				BFC4A74325F9B1C9002BAB8B /* ContainsStringFromIndex.swift */,
+				BF329A3425FB4FCD00A62603 /* CountAndSay.swift */,
 				BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */,
 			);
 			path = String;
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF329A3525FB4FCD00A62603 /* CountAndSay.swift in Sources */,
 				34E6BA8225F1DF3E00947D37 /* MoveZeroes.swift in Sources */,
 				BF5703A125F5DC3E0099FE5E /* LongestCommonPrefix.swift in Sources */,
 				34E6BA8125F1DF3E00947D37 /* AddOne.swift in Sources */,
