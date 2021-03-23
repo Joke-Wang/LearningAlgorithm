@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         
         RotateArray.rotate(&rotateNumbers, 5)
-        print(rotateNumbers)
+//        print(rotateNumbers)
         
         /*
          right
@@ -87,13 +87,13 @@ class ViewController: UIViewController {
 //        print(StringToInt.myAtoi("   +0 123"))
 //        print(StringToInt.myAtoi("00000-42a1234"))
         
-        print(CountAndSay.countAndSay(1))
-        print(CountAndSay.countAndSay(2))
-        print(CountAndSay.countAndSay(3))
-        print(CountAndSay.countAndSay(4))
+//        print(CountAndSay.countAndSay(1))
+//        print(CountAndSay.countAndSay(2))
+//        print(CountAndSay.countAndSay(3))
+//        print(CountAndSay.countAndSay(4))
         
         
-        
+        print(FizzBuzz.fizzBuzz(15))
         
     }
     

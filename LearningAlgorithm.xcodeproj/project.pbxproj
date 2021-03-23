@@ -22,6 +22,7 @@
 		BF329A3525FB4FCD00A62603 /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF329A3425FB4FCD00A62603 /* CountAndSay.swift */; };
 		BF55331525F9F8C20077AA8C /* StringToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55331425F9F8C20077AA8C /* StringToInt.swift */; };
 		BF5703A125F5DC3E0099FE5E /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */; };
+		BFB02402260997C500EA72C1 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB02401260997C500EA72C1 /* FizzBuzz.swift */; };
 		BFC4A74425F9B1C9002BAB8B /* ContainsStringFromIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4A74325F9B1C9002BAB8B /* ContainsStringFromIndex.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		BF329A3425FB4FCD00A62603 /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 		BF55331425F9F8C20077AA8C /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
 		BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		BFB02401260997C500EA72C1 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		BFC4A74325F9B1C9002BAB8B /* ContainsStringFromIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsStringFromIndex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,8 @@
 			children = (
 				34E6BA7725F1DF3E00947D37 /* Array */,
 				34E6BA7C25F1DF3E00947D37 /* String */,
+				BFB023FF260994D600EA72C1 /* SortAndSearch */,
+				BFB024002609978600EA72C1 /* Mathematics */,
 			);
 			path = AlgorithmProblem;
 			sourceTree = "<group>";
@@ -119,6 +123,21 @@
 				BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		BFB023FF260994D600EA72C1 /* SortAndSearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SortAndSearch;
+			sourceTree = "<group>";
+		};
+		BFB024002609978600EA72C1 /* Mathematics */ = {
+			isa = PBXGroup;
+			children = (
+				BFB02401260997C500EA72C1 /* FizzBuzz.swift */,
+			);
+			path = Mathematics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +222,7 @@
 				34E6BA8325F1DF3E00947D37 /* InvertString.swift in Sources */,
 				34E6BA6325F1DED200947D37 /* AppDelegate.swift in Sources */,
 				BF55331525F9F8C20077AA8C /* StringToInt.swift in Sources */,
+				BFB02402260997C500EA72C1 /* FizzBuzz.swift in Sources */,
 				34E6BA7F25F1DF3E00947D37 /* RotateArray.swift in Sources */,
 				34E6BA6525F1DED200947D37 /* SceneDelegate.swift in Sources */,
 			);
@@ -349,7 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9BY879GFG2;
 				INFOPLIST_FILE = LearningAlgorithm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -368,7 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9BY879GFG2;
 				INFOPLIST_FILE = LearningAlgorithm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
