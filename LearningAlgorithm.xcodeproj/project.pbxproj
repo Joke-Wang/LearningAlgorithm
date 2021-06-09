@@ -19,9 +19,11 @@
 		34E6BA8225F1DF3E00947D37 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6BA7B25F1DF3E00947D37 /* MoveZeroes.swift */; };
 		34E6BA8325F1DF3E00947D37 /* InvertString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6BA7D25F1DF3E00947D37 /* InvertString.swift */; };
 		34E6BA8425F1DF3E00947D37 /* InvertInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6BA7E25F1DF3E00947D37 /* InvertInteger.swift */; };
+		BF2BFA502670C07E00EB7C2F /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BFA4F2670C07E00EB7C2F /* ReverseLinkedList.swift */; };
 		BF329A3525FB4FCD00A62603 /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF329A3425FB4FCD00A62603 /* CountAndSay.swift */; };
 		BF55331525F9F8C20077AA8C /* StringToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55331425F9F8C20077AA8C /* StringToInt.swift */; };
 		BF5703A125F5DC3E0099FE5E /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */; };
+		BFAA542E260C71AB00AE9EA3 /* ThePowerOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA542D260C71AB00AE9EA3 /* ThePowerOfThree.swift */; };
 		BFB02402260997C500EA72C1 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB02401260997C500EA72C1 /* FizzBuzz.swift */; };
 		BFC4A74425F9B1C9002BAB8B /* ContainsStringFromIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4A74325F9B1C9002BAB8B /* ContainsStringFromIndex.swift */; };
 /* End PBXBuildFile section */
@@ -41,9 +43,11 @@
 		34E6BA7B25F1DF3E00947D37 /* MoveZeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		34E6BA7D25F1DF3E00947D37 /* InvertString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertString.swift; sourceTree = "<group>"; };
 		34E6BA7E25F1DF3E00947D37 /* InvertInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertInteger.swift; sourceTree = "<group>"; };
+		BF2BFA4F2670C07E00EB7C2F /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		BF329A3425FB4FCD00A62603 /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 		BF55331425F9F8C20077AA8C /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
 		BF5703A025F5DC3E0099FE5E /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		BFAA542D260C71AB00AE9EA3 /* ThePowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePowerOfThree.swift; sourceTree = "<group>"; };
 		BFB02401260997C500EA72C1 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		BFC4A74325F9B1C9002BAB8B /* ContainsStringFromIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsStringFromIndex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +97,7 @@
 		34E6BA7625F1DF3E00947D37 /* AlgorithmProblem */ = {
 			isa = PBXGroup;
 			children = (
+				BF2BFA4E2670C04C00EB7C2F /* ADailyTopic */,
 				34E6BA7725F1DF3E00947D37 /* Array */,
 				34E6BA7C25F1DF3E00947D37 /* String */,
 				BFB023FF260994D600EA72C1 /* SortAndSearch */,
@@ -125,6 +130,14 @@
 			path = String;
 			sourceTree = "<group>";
 		};
+		BF2BFA4E2670C04C00EB7C2F /* ADailyTopic */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BFA4F2670C07E00EB7C2F /* ReverseLinkedList.swift */,
+			);
+			path = ADailyTopic;
+			sourceTree = "<group>";
+		};
 		BFB023FF260994D600EA72C1 /* SortAndSearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				BFB02401260997C500EA72C1 /* FizzBuzz.swift */,
+				BFAA542D260C71AB00AE9EA3 /* ThePowerOfThree.swift */,
 			);
 			path = Mathematics;
 			sourceTree = "<group>";
@@ -216,6 +230,7 @@
 				BF5703A125F5DC3E0099FE5E /* LongestCommonPrefix.swift in Sources */,
 				34E6BA8125F1DF3E00947D37 /* AddOne.swift in Sources */,
 				34E6BA6725F1DED200947D37 /* ViewController.swift in Sources */,
+				BF2BFA502670C07E00EB7C2F /* ReverseLinkedList.swift in Sources */,
 				BFC4A74425F9B1C9002BAB8B /* ContainsStringFromIndex.swift in Sources */,
 				34E6BA8025F1DF3E00947D37 /* DeletesDuplicateValuesInArray.swift in Sources */,
 				34E6BA8425F1DF3E00947D37 /* InvertInteger.swift in Sources */,
@@ -223,6 +238,7 @@
 				34E6BA6325F1DED200947D37 /* AppDelegate.swift in Sources */,
 				BF55331525F9F8C20077AA8C /* StringToInt.swift in Sources */,
 				BFB02402260997C500EA72C1 /* FizzBuzz.swift in Sources */,
+				BFAA542E260C71AB00AE9EA3 /* ThePowerOfThree.swift in Sources */,
 				34E6BA7F25F1DF3E00947D37 /* RotateArray.swift in Sources */,
 				34E6BA6525F1DED200947D37 /* SceneDelegate.swift in Sources */,
 			);

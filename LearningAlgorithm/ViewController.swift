@@ -93,7 +93,21 @@ class ViewController: UIViewController {
 //        print(CountAndSay.countAndSay(4))
         
         
-        print(FizzBuzz.fizzBuzz(15))
+//        print(FizzBuzz.fizzBuzz(15))
+        
+        
+        let item5 = ListNode(5)
+        let item4 = ListNode(4)
+        item4.next = item5
+        let item3 = ListNode(3)
+        item3.next = item4
+        let item2 = ListNode(2)
+        item2.next = item3
+        let item1 = ListNode(1)
+        item1.next = item2
+        
+        print(item1.val)
+        print(ReverseLinkedList.reverseList(item1)?.val as Any)
         
     }
     
