@@ -96,18 +96,31 @@ class ViewController: UIViewController {
 //        print(FizzBuzz.fizzBuzz(15))
         
         
-        let item5 = ListNode(5)
-        let item4 = ListNode(4)
-        item4.next = item5
-        let item3 = ListNode(3)
-        item3.next = item4
-        let item2 = ListNode(2)
-        item2.next = item3
-        let item1 = ListNode(1)
-        item1.next = item2
+//        let item5 = ListNode(5)
+//        let item4 = ListNode(4)
+//        item4.next = item5
+//        let item3 = ListNode(3)
+//        item3.next = item4
+//        let item2 = ListNode(2)
+//        item2.next = item3
+//        let item1 = ListNode(1)
+//        item1.next = item2
+//
+//        print(item1.val)
+//        print(ReverseLinkedList.reverseList(item1)?.val as Any)
         
-        print(item1.val)
-        print(ReverseLinkedList.reverseList(item1)?.val as Any)
+//        print(FindKthLargest.findKthLargest([3,2,1,5,6,4], 2))
+//        print(FindKthLargest.findKthLargest([3,2,3,1,2,4,5,5,6], 4))
+//        print(FindKthLargest.findKthLargest([3,2,3,1,2,4,5,5,6], 9))
+        
+        let cqueue = CQueue()
+        print(cqueue.deleteHead())
+        print(cqueue.appendTail(5))
+        print(cqueue.appendTail(2))
+        print(cqueue.deleteHead())
+        print(cqueue.deleteHead())
+        
+        
         
     }
     
